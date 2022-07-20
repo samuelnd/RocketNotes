@@ -28,6 +28,28 @@ export const Profile = styled.div`
     >div {
         display: flex;
         flex-direction: column;
+        margin-left: 1.6rem;
+        line-height: 2.4rem;
+
+        span{
+            font-size: 1.4rem;
+            color: ${({theme}) => theme.COLORS.GRAY_100};
+        }
+
+        strong{
+            font-size: 1.8rem;
+            color: ${({theme}) => theme.COLORS.WHITE};
+        }
     }
-    
+`;
+
+export const Logout = styled.button`
+    border: none;
+    background: none;
+
+    > svg {
+        color: ${({theme}) => theme.COLORS.GRAY_100};
+        font-size: 3.6rem;
+    }
+
 `;
