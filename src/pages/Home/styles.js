@@ -54,12 +54,15 @@ export const Menu = styled.ul`
 export const Search = styled.div`
     grid-area: search;
 
-    padding: 
-    6.4rem 6.4rem 0;
+    padding: 6.4rem 6.4rem 0;
 `;
 
 export const Content = styled.div`
     grid-area: content;
+
+    padding: 0 6.4rem;
+    overflow-y: auto;
+
 `;
 
 export const NewNote= styled.button`
