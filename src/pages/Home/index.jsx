@@ -76,7 +76,7 @@ export function Home() {
             </li>
             {   
                 tags && tags.map(tag => (
-                    <li key ={String(tag.id)}>
+                    <li key ={String(tag.id.toString)}>
                         <ButtonText 
                         title= {tag.name}
                         onClick={() => handleTagSelected(tag.name)}
